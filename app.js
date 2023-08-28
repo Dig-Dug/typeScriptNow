@@ -7,3 +7,23 @@ h3.textContent = ms1;
 document.body.appendChild(ha);
 document.body.appendChild(h3);
 console.log(ms);
+var n; //string,boolean
+n = 33; //OR
+var nn = 23;
+var arr;
+var arr1 = ["s", "1"]; //init
+var free;
+free = {
+    r: "j",
+    age: 23
+};
+//Function args & return types
+var greeting;
+greeting = function (name) {
+    return "Hi " + name;
+};
+var rrr;
+rrr = function (age) {
+    return age + 12;
+};
+console.log(greeting);
