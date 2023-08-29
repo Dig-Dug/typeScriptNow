@@ -1,1 +1,5 @@
 in cmd: tsc app.tsc
+
+save and compile:
+https://www.tektutorialshub.com/typescript/typescript-compile-on-save-in-visual-studio-code/
+

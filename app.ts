@@ -1,4 +1,4 @@
-let ms: string = "jeyo lol";
+let ms: string = "jeyo loloo";
 let ms1: string = "kkoikok";
 let ha = document.createElement('h1')
 let h3 = document.createElement('p')
@@ -34,3 +34,21 @@ rrr = function (age: number) {
 }
 
 console.log(greeting)
+
+let items = [9, 2, null, "hi"];
+console.log(items)
+
+function setCounter(max = 100) {
+    console.log(max, items)
+}
+setCounter(10)
+
+
+function my() {
+    document.addEventListener('click', function (event) {
+        console.log(event.button, "<<--")
+    });
+}
+document.addEventListener('click', function (event) {
+    console.log(event.button, "iuuu")
+});

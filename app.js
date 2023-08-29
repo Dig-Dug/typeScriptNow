@@ -1,4 +1,5 @@
-var ms = "jeyo lol";
+"use strict";
+var ms = "jeyo loloo";
 var ms1 = "kkoikok";
 var ha = document.createElement('h1');
 var h3 = document.createElement('p');
@@ -27,3 +28,18 @@ rrr = function (age) {
     return age + 12;
 };
 console.log(greeting);
+var items = [9, 2, null, "hi"];
+console.log(items);
+function setCounter(max) {
+    if (max === void 0) { max = 100; }
+    console.log(max, items);
+}
+setCounter(10);
+function my() {
+    document.addEventListener('click', function (event) {
+        console.log(event.button, "<<--");
+    });
+}
+document.addEventListener('click', function (event) {
+    console.log(event.button, "iuuu");
+});
