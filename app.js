@@ -1,4 +1,3 @@
-"use strict";
 var ms = "jeyo loloo";
 var ms1 = "kkoikok";
 var ha = document.createElement('h1');
