@@ -47,3 +47,6 @@ class Moo implements Jeison {
 }
 let go = new Moo("cow", "aslopü");
 console.log(go.toJSON(), "<<<<<<<<<<<<<<<<<<<<<<");
+
+
+

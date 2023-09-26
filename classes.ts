@@ -85,3 +85,4 @@ console.log(Extatis.getEx()) //103460
 
 //Abstract Classes: only signature not implementation
 //https://www.typescripttutorial.net/typescript-tutorial/typescript-abstract-classes/
+
